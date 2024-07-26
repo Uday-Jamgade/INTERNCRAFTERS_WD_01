@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image:  url("");
+    height: 200vh;
+}
+
+.bg{ 
+    background-color: rgb(226, 99, 20);
+    background-size: cover;
+    height: 100px;   
+ 
+}
+
+.Navbar{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.34);
+    z-index: 99;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: orange;
+    border-radius: 20px;
+    color: black;
+}
+
+.bgColor{
+    transition: all 1s;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid lightblue;
+    z-index: 99;
+}
+
+.page1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -20px;
+     background: url(https://clipground.com/images/free-clip-art-music-band-5.jpg);
+     height: 50%; 
+    background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+.pg-btn button{
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white; 
+    background-color: #214cdcfa; 
+}
+
+.page1 h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page1 h5{
+    color: white;
+}
+.pg-btn2 button{
+    padding:  15px 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    background-color: purple;
+    margin-top: 30px;
+}
+
+
+
+
+.title h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 900;
+    font-size:xx-large;
+}
+
+.title p{
+    display: flex;
+    color: white;
+    font-weight: 500;
+    justify-content: space-around;
+
+}
+
+.button{
+    display: flex ;
+    justify-content: center;
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    display: flex;
+    z-index: auto;
+    height: 371px;
+    justify-content: center;
+    box-shadow: 10px  black;
+    
+
+}
+.box{
+    background-color: rgb(234, 137, 45);
+    display: flex;
+    justify-content: center;
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  box-shadow:    20px 20px 40px black;
+}
+
+
+
+
+
+.container{
+
+    position: relative;
+    
+     width: 100vw;
+    height: 70vh;
+    display: flex;
+    
+
+    justify-content: center;
+    align-items: center;
+    background-color: #e1dddd;
+}
+.left1{
+    
+    flex-basis: 50%;
+
+    
+}
+.right1{
+    
+    display: flex;
+    flex-basis: 40%;
+ 
+}
+
+.p{
+    
+    font-size: 0.9em;
+    font-weight: bold;
+    
+    
+}
+
+
+
+.box2{
+    
+    background-color: rgb(234, 137, 45);
+    display: flex;
+    justify-content: center;
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  box-shadow: 10px 10px  25px  10px rgb(148, 139, 139);
+}
+
+
+.cardbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title2{
+    
+    background-color: #344e41 ;
+    color: white;
+    
+}
+
+.title2 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.card{
+    display: flex;
+ width: 20vw;
+ height: 25vw;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ overflow-y: hidden;
+ 
+}
+
+.pricing {
+    display: flex;
+    background-color: #e1dddd;
+    justify-content: space-around;
+    padding: 30px 170px;
+    padding-top: 20px;
+    
+}
+
+.card2{
+    width:23vw ;
+    background-color: white;
+    height: 35vw;
+    border: black solid 1px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+     box-shadow: 20px 20px 10px black;
+    
+     overflow: hidden;
+}
+
+.card2:hover{
+    background-color: #344e41;
+    color: aliceblue;
+
+}
+
+.card2 button{
+    background-color: orange;
+    color: black;
+    border-radius: 35px;
+}
+
+.card2 button:hover{
+
+    background-color: black;
+    color: white;
+}
+
+
